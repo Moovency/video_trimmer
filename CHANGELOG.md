@@ -1,3 +1,10 @@
+# Information
+
+## 3.0.2
+
+* Update plugin versions.
+* Update with Flutter 3.27.3
+
 ## 3.0.1
 
 * Updates readme.
@@ -137,7 +144,7 @@
 ## 0.2.6
 
 * Add a new property called `fit` to `TrimEditor` widget which will let you specify the image fit type of each thumbnail image.
-* Add a new property to `saveTrimmedVideo()` method called `applyVideoEncoding` which will let you specify whether to re-encode the trimmed video. 
+* Add a new property to `saveTrimmedVideo()` method called `applyVideoEncoding` which will let you specify whether to re-encode the trimmed video.
   
   **NOTE:** Applying this will take significantly greater amount of time to process the output video.
 

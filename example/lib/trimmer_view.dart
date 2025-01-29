@@ -70,7 +70,9 @@ class _TrimmerViewState extends State<TrimmerView> {
   Widget build(BuildContext context) {
     return PopScope(
       canPop: false,
-      onPopInvoked: (canPop) => _onBackPressed(canPop),
+      onPopInvokedWithResult: (final bool didPop, final _) {
+        _onBackPressed(didPop);
+      },
       child: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
