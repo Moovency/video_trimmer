@@ -1,5 +1,9 @@
 # Information
 
+## 3.0.3
+
+* Downgrade intl to 0.19.0, Flutter does not yet support version 0.20.2
+
 ## 3.0.2
 
 * Update plugin versions.
