@@ -1,5 +1,9 @@
 # Information
 
+## 3.0.4
+
+* Delete video_player_android as direct dependency
+
 ## 3.0.3
 
 * Downgrade intl to 0.19.0, Flutter does not yet support version 0.20.2
