@@ -10,7 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   video_player: ^2.4.7
   video_player_android: 2.7.1
   ffmpeg_kit_flutter_https_gpl: ^6.0.3
@@ -20,7 +19,7 @@ dependencies:
       url: https://github.com/justsoft/video_thumbnail.git
       ref: 67f7f792370e0d394d323ff7d70e204622a530d4
   path_provider: ^2.1.1
-  intl: ^0.20.2
+  intl: 0.19.0
   path: ^1.8.3
   transparent_image: ^2.0.1
 
