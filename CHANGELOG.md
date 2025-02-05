@@ -1,5 +1,9 @@
 # Information
 
+## 3.0.5
+
+* add video_palyer dependencies in forked version
+
 ## 3.0.4
 
 * Delete video_player_android as direct dependency

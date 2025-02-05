@@ -227,19 +227,21 @@ packages:
   video_player:
     dependency: "direct main"
     description:
-      name: video_player
-      sha256: "4a8c3492d734f7c39c2588a3206707a05ee80cef52e8c7f3b2078d430c84bc17"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: "37ee8647419bbcfde88cea33841c199181f5e54a"
+      resolved-ref: "37ee8647419bbcfde88cea33841c199181f5e54a"
+      url: "https://github.com/Moovency/video_player.git"
+    source: git
     version: "2.9.2"
   video_player_android:
     dependency: transitive
     description:
-      name: video_player_android
-      sha256: "7018dbcb395e2bca0b9a898e73989e67c0c4a5db269528e1b036ca38bcca0d0b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.7.17"
+      path: "."
+      ref: "48bdb2612747660175f9a0a77421684c0556a9f5"
+      resolved-ref: "48bdb2612747660175f9a0a77421684c0556a9f5"
+      url: "https://github.com/Moovency/video_player_android.git"
+    source: git
+    version: "2.7.1"
   video_player_avfoundation:
     dependency: transitive
     description:
@@ -291,4 +293,4 @@ packages:
     version: "1.1.0"
 sdks:
   dart: ">=3.6.0 <4.0.0"
-  flutter: ">=3.27.0"
+  flutter: ">=3.24.0"
